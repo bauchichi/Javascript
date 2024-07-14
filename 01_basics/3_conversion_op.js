@@ -16,3 +16,14 @@ let c = 34
 let d = string(c)
 console.log(d)
 console.log(typeof(d))
+
+//************************************************* operations ****************************8*//
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+
+//console.log(2**2)//2 ki power 2
+
+//bigint ke liye (xxxxxxxn)
