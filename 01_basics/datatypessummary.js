@@ -15,3 +15,12 @@ const a = 23;
 //reference type(Non-Primitive)
 
 //Array, objects, functions
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+
+//let myyoutubename = "lalaonthefloor"
