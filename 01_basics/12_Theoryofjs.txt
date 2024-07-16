@@ -62,7 +62,11 @@
       if(cond1 && cond2 && cond3){
           console.log("allow")               [and]
       }
-      
+
+
+
+      [continue is used when we need to continue the loop after checking the condition ]
+      [break to obvious h]
 
 
 
