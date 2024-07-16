@@ -1,0 +1,70 @@
+ 
+ only theory of js 
+
+ !. global execution context 
+ 2. function execution context 
+ 3. eval execution context 
+
+
+ Memory creation lala phase
+ execution lala phase 
+
+
+ EXAMPLE
+
+ 1.Global execution
+ 2.Memory lala phase 
+ 3.Execution lala phase 
+
+
+
+ call stack
+
+
+ falsy values
+      
+      false, 0, -0, BidInt, 0n, "", null
+      undefined,NaN
+
+ Truthy values
+        
+      "0", 'false', " ", [], {}, function(){}. (((False == 0,False == '', 0 == '' )))
+
+      how to detect  whether an array or an object is empty 
+
+      if(Object.keys(emptyObj).length === 0) {
+          console.log("Object is empty");
+      }
+
+      Nullish COalescing Operator (??): null undefined 
+
+      let=val1;
+      val1 = 5 ?? 10
+      val1 = null ?? 10
+      val1 = undefined ?? 15
+      val1 = null ?? 10 ?? 20
+
+      console.log(val1);  [value of val1 is 5]
+      console.log(val1)   [value is 10 ]
+      console.log(val1)   [value is 15]
+      console.log(val1)   [value is 10]
+
+      Ternary operator
+
+      condition ? true : false 
+      const a = 100
+      a >=80 ? console.log("less than 80") : console.log("more than 80 ")
+
+      if(condition1 || condition2){
+          cosnole.log("heuheu")               [or]
+      }
+
+      if(cond1 && cond2 && cond3){
+          console.log("allow")               [and]
+      }
+      
+
+
+
+
+
